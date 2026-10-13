@@ -1,0 +1,38 @@
+{
+  "fetchedAt": "2026-10-04T23:45:00.000Z",
+  "profileUrl": "https://soundcloud.com/kyaw-zaw-win-772173370",
+  "tracks": [
+    {
+      "title": "No Gods on Monday",
+      "url": "https://soundcloud.com/kyaw-zaw-win-772173370/no-gods-on-monday",
+      "createdAt": "2026-10-04T23:07:57Z",
+      "durationMs": 196566,
+      "genre": "Alternative Rock",
+      "artworkUrl": "https://i1.sndcdn.com/artworks-dnX6NEGtBmaRpIII-GxQ4IQ-t300x300.jpg"
+    },
+    {
+      "title": "Run Until Sunrise",
+      "url": "https://soundcloud.com/kyaw-zaw-win-772173370/run-until-sunrise",
+      "createdAt": "2026-10-04T10:52:25Z",
+      "durationMs": 290005,
+      "genre": "Techno",
+      "artworkUrl": "https://i1.sndcdn.com/artworks-EdEBl3CSqA76NqYc-9tReZA-t300x300.jpg"
+    },
+    {
+      "title": "Carry the Night Home",
+      "url": "https://soundcloud.com/kyaw-zaw-win-772173370/carry-the-night-home",
+      "createdAt": "2026-10-04T00:08:13Z",
+      "durationMs": 200046,
+      "genre": "Jazz & Blues",
+      "artworkUrl": "https://i1.sndcdn.com/artworks-swQQzyDGc1Tcj3WO-2EkArg-t300x300.jpg"
+    },
+    {
+      "title": "Built From the Pressure",
+      "url": "https://soundcloud.com/kyaw-zaw-win-772173370/built-from-the-pressure",
+      "createdAt": "2026-10-03T14:13:33Z",
+      "durationMs": 200046,
+      "genre": "Hip-hop & Rap",
+      "artworkUrl": "https://i1.sndcdn.com/artworks-gDlODwDGlQb7quVY-4LV2BQ-t300x300.jpg"
+    }
+  ]
+}

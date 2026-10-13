@@ -1,0 +1,96 @@
+[
+  {
+    "title": "Authentication",
+    "description": "Generic authentication system with Laravel backend and React frontend. Supports email/password and OAuth (Google, Facebook, LinkedIn) authentication.",
+    "image_url": "portal/authentication.png",
+    "idea": "Create reusable authentication components that can be integrated into any application. Features transparent background UI, progressive email/password flow, and multiple OAuth providers for seamless user authentication.",
+    "video_link": null,
+    "railway_service_id": "2f94e10f-87eb-4e03-996e-964c66695705",
+    "project_url": "https://authentication-kzwappcenter.up.railway.app/",
+    "railway_self_destruction_seconds": 300,
+    "is_pinned": 0,
+    "sequence": 3,
+    "techStacks": [
+      "Laravel",
+      "PHP",
+      "React",
+      "Tailwind CSS",
+      "SQLite",
+      "OAuth"
+    ]
+  },
+  {
+    "title": "Architectural Fees Calculator",
+    "description": "A web-based application for calculating architectural and structural engineering fees with a robust spreadsheet-style design. Features interactive responsive web interface with category settings, rates management, coefficients configuration, and real-time fee calculations.",
+    "image_url": "portal/architectural-fee-calculator.png",
+    "idea": "Create a comprehensive fee calculator that provides step-by-step calculations with formulas (Excel + Google Sheets compatible). Features clean separation of Inputs / Rates / Coefficients / Output, making it auditable and hard to break. No user login required, with options to save calculations and export to CSV.",
+    "video_link": null,
+    "railway_service_id": "184225a7-17ed-484a-94e6-f5f6185717fd",
+    "project_url": "https://architecural-fees-calculator-kzwappcenter.up.railway.app/",
+    "railway_self_destruction_seconds": 300,
+    "is_pinned": 0,
+    "sequence": 4,
+    "techStacks": [
+      "Laravel",
+      "PHP",
+      "React",
+      "Tailwind CSS",
+      "SQLite",
+      "Vite"
+    ]
+  },
+  {
+    "title": "Document Extraction and Self Training",
+    "description": "An agentic system for extracting text from documents (PDF/JPEG) with reinforcement learning capabilities using RAG. Features OCR, vision models, LLM-based structured data extraction, validation, and self-learning from user corrections.",
+    "image_url": "portal/document-extraction.png",
+    "idea": "Create an intelligent document extraction system that learns from user corrections. Uses Langgraph for agentic workflows, ChromaDB for RAG-based learning, OpenRouter for flexible LLM model selection, and Langfuse for observability. Supports schema management, re-extraction, and real-time accuracy validation.",
+    "video_link": null,
+    "railway_service_id": "3992eb80-38da-4c46-8fc1-0fd87894a127",
+    "project_url": "https://document-extraction-kzwappcenter.up.railway.app/",
+    "railway_self_destruction_seconds": 300,
+    "is_pinned": 1,
+    "sequence": 1,
+    "techStacks": [
+      "FastAPI",
+      "Python",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "ChromaDB",
+      "Langgraph",
+      "OpenRouter",
+      "Langfuse",
+      "Vite",
+      "SQLite"
+    ],
+    "resources": [
+      {
+        "type": "medium",
+        "url": "https://medium.com/p/6b422568eabe"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rQarwvb-t9E"
+      }
+    ]
+  },
+  {
+    "title": "Happy New Year 2026",
+    "description": "A full-screen animated web page celebrating the New Year 2026 with blinking stars, fireworks, and a beautiful half moon. Features 50 animated stars with random movement, 7 simultaneous fireworks bursts, and elegant typography using Playfair Display font.",
+    "image_url": "portal/happy-new-year-2026.png",
+    "idea": "Create a festive animated celebration page with a night sky theme. Features 50 font-icon stars that blink and move randomly across the screen, 7 simultaneous colorful fireworks bursts, a glowing half moon, and elegant 'Happy New Year 2026' text. Powered by GSAP for smooth animations and includes Railway self-destruction countdown widget.",
+    "video_link": null,
+    "railway_service_id": "6fb92a2a-c446-425c-b519-4f92cd124a0d",
+    "project_url": "https://happy-new-year-2026-kzwappcenter.up.railway.app/",
+    "railway_self_destruction_seconds": 60,
+    "is_pinned": 1,
+    "sequence": 2,
+    "techStacks": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "GSAP",
+      "Vite"
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Destruction Widget Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .example {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #f3f4f6;
+            border-radius: 0.5rem;
+        }
+
+        code {
+            background: #1f2937;
+            color: #f9fafb;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Self-Destruction Widget Example</h1>
+
+    <div class="example">
+        <h2>Basic Usage</h2>
+        <p>Add this script tag to your page:</p>
+        <pre><code>&lt;script src="https://your-portal-domain.com/widgets/self-destruction.js"&gt;&lt;/script&gt;</code></pre>
+    </div>
+
+    <div class="example">
+        <h2>With Custom Configuration</h2>
+        <pre><code>&lt;script&gt;
+  window.SelfDestructionWidget = {
+    apiUrl: 'https://your-portal-domain.com/api/self-destruction',
+    position: 'top-right',
+  };
+&lt;/script&gt;
+&lt;script src="https://your-portal-domain.com/widgets/self-destruction.js"&gt;&lt;/script&gt;</code></pre>
+    </div>
+
+    <div class="example">
+        <h2>Live Example</h2>
+        <p>The widget should appear in the top-left corner of this page.</p>
+        <p>Note: This will only work if this page's URL matches a project URL in the portal database.</p>
+    </div>
+
+    <!-- Widget Script -->
+    <script>
+        // Configure widget (optional)
+        window.SelfDestructionWidget = {
+            apiUrl: '/api/self-destruction',
+            position: 'top-left',
+        };
+    </script>
+    <script src="/widgets/self-destruction.js"></script>
+</body>
+
+</html>

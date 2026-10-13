@@ -1,0 +1,31 @@
+[
+  {
+    "number": "001",
+    "title": "System One Decision Model",
+    "summary": "Client UI for laya system one decision model.",
+    "url": "https://github.com/kyawzawwin88/laya-system-one-client",
+    "area": "System One"
+  },
+  {
+    "number": "002",
+    "title": "Microservice monorepo",
+    "summary": "A demonstration of event-driven microservice architecture using Laravel, a Bazel monorepo, durable workflows, and model states.",
+    "url": "https://github.com/kyawzawwin88/microservice-monorepo-example",
+    "area": "Microservices"
+  },
+  {
+    "number": "003",
+    "title": "MCP Inspector to Langfuse",
+    "summary": "A lightweight Chrome app to convert MCP Inspector format to Langfuse prompt config.",
+    "url": "https://github.com/kyawzawwin88/mcp-inspector-to-langfuse-chrome-app",
+    "area": "MCP Inspector"
+  },
+  {
+    "number": "004",
+    "title": "Agentic Music Production",
+    "summary": "A hobby. These tracks are produced with a custom agentic harness and ComfyUI.",
+    "url": "https://soundcloud.com/kyaw-zaw-win-772173370",
+    "area": "Music",
+    "linkLabel": "SoundCloud"
+  }
+]

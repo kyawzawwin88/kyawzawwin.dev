@@ -1,0 +1,61 @@
+{
+  "fetchedAt": "2026-10-03",
+  "repos": [
+    {
+      "name": "rent-or-buy",
+      "description": "Rent or buy property calculator build by agentic website builder",
+      "url": "https://github.com/kyawzawwin88/rent-or-buy",
+      "language": "TypeScript",
+      "stars": 0
+    },
+    {
+      "name": "laya-system-one-client",
+      "description": "Client UI for laya system one decision model",
+      "url": "https://github.com/kyawzawwin88/laya-system-one-client",
+      "language": "TypeScript",
+      "stars": 0
+    },
+    {
+      "name": "microservice-monorepo-example",
+      "description": "Microservice monorepo example",
+      "url": "https://github.com/kyawzawwin88/microservice-monorepo-example",
+      "language": "Shell",
+      "stars": 0
+    },
+    {
+      "name": "mcp-inspector-to-langfuse-chrome-app",
+      "description": "A lightweight chrome app to convert MCP inspector format to langfuse prompt config",
+      "url": "https://github.com/kyawzawwin88/mcp-inspector-to-langfuse-chrome-app",
+      "language": "TypeScript",
+      "stars": 0
+    },
+    {
+      "name": "nestjs-sdk-mono-file-manager",
+      "description": "SDK monorepos demo for NestJS for file manager",
+      "url": "https://github.com/kyawzawwin88/nestjs-sdk-mono-file-manager",
+      "language": null,
+      "stars": 0
+    },
+    {
+      "name": "demo-invoice-app",
+      "description": "Invoice app demo for one of the code assessment test I did for interview",
+      "url": "https://github.com/kyawzawwin88/demo-invoice-app",
+      "language": "Python",
+      "stars": 1
+    },
+    {
+      "name": "nestjs-adhoc-script-executor",
+      "description": "Abstract adhoc script executor using nestjs",
+      "url": "https://github.com/kyawzawwin88/nestjs-adhoc-script-executor",
+      "language": "TypeScript",
+      "stars": 1
+    },
+    {
+      "name": "remix-websites.single-page",
+      "description": "Single page website demo using remixjs",
+      "url": "https://github.com/kyawzawwin88/remix-websites.single-page",
+      "language": "TypeScript",
+      "stars": 1
+    }
+  ]
+}
