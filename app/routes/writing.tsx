@@ -17,7 +17,7 @@ interface NoteProps {
   source: string;
 }
 
-const BASE_PATH = "/kyawzawwin.dev";
+const BASE_PATH = "/kyawzawwin.dev/";
 
 export async function clientLoader({ request }: ClientLoaderFunctionArgs) {
   const [noteRes, techStackRes] = await Promise.all([

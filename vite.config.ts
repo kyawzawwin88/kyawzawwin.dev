@@ -3,7 +3,7 @@ import { vitePlugin as remix } from "@remix-run/dev";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 import path from "path";
 
-const BASE_PATH = "/kyawzawwin.dev";
+const BASE_PATH = "/kyawzawwin.dev/";
 
 export default defineConfig({
   base: BASE_PATH,
