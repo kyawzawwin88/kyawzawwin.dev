@@ -28,7 +28,7 @@ interface MusicData {
   error: string;
 }
 
-const BASE_PATH = "/kyawzawwin.dev/";
+const BASE_PATH = "/kyawzawwin.dev";
 
 export async function clientLoader({ request }: ClientLoaderFunctionArgs) {
   const [labRes, musicRes] = await Promise.all([

@@ -31,8 +31,9 @@ export default defineConfig({
           src: [
             "./data/*",
             "!**/.DS_Store",
+            "!**/.gitkeep",
           ],
-          dest: "../client"
+          dest: "../client/data"
         },
       ],
     })
