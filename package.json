@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "remix vite:build",
-    "dev": "remix vite:dev",
+    "dev": "npm run build && remix vite:dev",
     "start": "vite preview",
     "typecheck": "tsc"
   },

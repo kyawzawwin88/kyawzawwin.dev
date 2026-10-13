@@ -3,8 +3,10 @@ import { vitePlugin as remix } from "@remix-run/dev";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 import path from "path";
 
+const BASE_PATH = "/kyawzawwin.dev";
+
 export default defineConfig({
-  base: "/kyawzawwin.dev/",
+  base: BASE_PATH,
   resolve: {
     alias: {
       '~': path.resolve(__dirname, './app'), 
@@ -21,6 +23,7 @@ export default defineConfig({
   plugins: [
     remix({
       ssr: false,
+      basename: BASE_PATH,
     }),
     viteStaticCopy({
       targets: [

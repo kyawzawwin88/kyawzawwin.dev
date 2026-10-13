@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => [
 ];
 
 export async function clientLoader({ request }: ClientLoaderFunctionArgs) {
-  const openSourceRes = await fetch("/data/open-source.json");
+  const openSourceRes = await fetch("data/open-source.json");
   
   if (!openSourceRes.ok) {
     throw new Response("Failed to load JSON file", { status: openSourceRes.status });

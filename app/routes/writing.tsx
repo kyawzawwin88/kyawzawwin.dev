@@ -17,10 +17,12 @@ interface NoteProps {
   source: string;
 }
 
+const BASE_PATH = "/kyawzawwin.dev";
+
 export async function clientLoader({ request }: ClientLoaderFunctionArgs) {
   const [noteRes, techStackRes] = await Promise.all([
-    fetch("/data/notes.json"),
-    fetch("/data/tech-stacks.json"),
+    fetch(`${BASE_PATH}/data/notes.json`),
+    fetch(`${BASE_PATH}/data/tech-stacks.json`),
   ]);
 
   

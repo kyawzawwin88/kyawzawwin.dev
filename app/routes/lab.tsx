@@ -28,10 +28,12 @@ interface MusicData {
   error: string;
 }
 
+const BASE_PATH = "/kyawzawwin.dev";
+
 export async function clientLoader({ request }: ClientLoaderFunctionArgs) {
   const [labRes, musicRes] = await Promise.all([
-    fetch("/data/lab.json"),
-    fetch("/data/music.json"),
+    fetch(`${BASE_PATH}/data/lab.json`),
+    fetch(`${BASE_PATH}/data/music.json`),
   ]);
 
   

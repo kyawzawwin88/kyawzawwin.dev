@@ -30,12 +30,14 @@ interface LabProps {
   area: string;
   linkLabel: string;
 }
+
+const BASE_PATH = "/kyawzawwin.dev";
   
 export async function clientLoader({ request }: ClientLoaderFunctionArgs) {
   const [noteRes, labRes, musicRes] = await Promise.all([
-    fetch("/data/notes.json"),
-    fetch("/data/lab.json"),
-    fetch("/data/music.json"),
+    fetch(`${BASE_PATH}/data/notes.json`),
+    fetch(`${BASE_PATH}/data/lab.json`),
+    fetch(`${BASE_PATH}/data/music.json`),
   ]);
 
   
